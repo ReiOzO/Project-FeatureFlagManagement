@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-07-12T15:50:00.000Z",
+  "flags": {
+    "new-ui-design": {
+      "enabled": true,
+      "rolloutPercentage": 100,
+      "targeting": {
+        "userGroups": ["beta-users"],
+        "userIds": []
+      },
+      "variants": [
+        {
+          "name": "modern",
+          "weight": 100
+        }
+      ],
+      "metadata": {
+        "description": "New UI Design Feature",
+        "owner": "frontend-team",
+        "createdAt": "2025-07-12T15:50:00.000Z"
+      }
+    }
+  }
+} 
