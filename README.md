@@ -44,8 +44,6 @@ Dự án này triển khai một hệ thống **Feature Flag Management** hoàn 
 - **AWS AppConfig** - Configuration management
 - **CloudWatch** - Monitoring và metrics
 - **Lambda** - Automated rollback functions
-- **S3** - Static file hosting
-- **Route 53** - Domain management
 
 ## Cấu trúc thư mục
 
@@ -133,20 +131,6 @@ cd aws-config
 ./setup-cloudwatch.sh
 ```
 
-## Demo và Screenshots
-
-### AWS AppConfig Console
-![AWS AppConfig Configuration](docs/screenshots/appconfig-console.png)
-
-### Feature Flag Dashboard
-![Feature Flag Dashboard](docs/screenshots/dashboard.png)
-
-### A/B Testing Results
-![A/B Testing Results](docs/screenshots/ab-testing.png)
-
-### Performance Monitoring
-![Performance Monitoring](docs/screenshots/monitoring.png)
-
 ## Kết quả đạt được
 
 - ✅ **Feature Flag System**: Triển khai thành công hệ thống feature flags
@@ -170,10 +154,6 @@ cd aws-config
 - [Feature Flag Best Practices](https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html)
 - [CloudWatch Metrics](https://docs.aws.amazon.com/cloudwatch/)
 - [A/B Testing Methodology](https://aws.amazon.com/blogs/aws/amazon-cloudwatch-evidently/)
-
-## Tác giả
-
-**[Tên của bạn]** - *Student Project*
 
 ---
 
